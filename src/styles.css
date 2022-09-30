@@ -1,11 +1,12 @@
 .img{
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
 }
 .container-img{
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     margin: 0 auto;
+    border: 1px solid red;
 }
 .container-btn{
     display: flex;

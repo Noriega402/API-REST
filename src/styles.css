@@ -1,16 +1,23 @@
 .img{
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
 }
 .container-img{
     height: 400px;
-    width: 400px;
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .container-btn{
     display: flex;
+    margin-top: 20px;
     justify-content: center;
+}
+.container-img div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
 }
 #btn-random{
     width: 100px;

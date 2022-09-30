@@ -11,7 +11,6 @@ async function data(url){
 const peticion = async url => {
     try{
         const getImage =  await data(`${API}`);
-        const img = document.getElementById('img');
         const fragment = document.createDocumentFragment();
         getImage.forEach(image => {
             console.log(image);
